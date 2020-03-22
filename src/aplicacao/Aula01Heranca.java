@@ -14,7 +14,7 @@ public class Aula01Heranca {
 		
 		//UPCASTING
 		
-		//Nenhum dos emxemplos abaixo apresenta erro pois todos sao uma conta, a conta eh a superclasse
+		//Nenhum dos exemplos abaixo apresenta erro pois todos sao uma conta, a conta eh a superclasse
 		//eh a conversao de um objeto da subclasse para a superclasse
 		
 		Conta cta1 = ctaemp; 
