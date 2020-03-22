@@ -23,5 +23,9 @@ public class ContaPoupanca extends Conta{
 	public void atualizaSaldo() {
 		saldo += saldo * taxaJuros;
 	}
-
+	
+	@Override
+	public void saque(double valor) {
+		saldo -= valor;
+	}
 }
